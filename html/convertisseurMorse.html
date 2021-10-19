@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/convertisseurMort.css">
+    <title>Convertisseur morse</title>
+</head>
+<body>
+    <div class="titreContainer">
+        <h1>Le morse, quésaco ?</h1>
+    </div>
+    <div class="explanationMorse">
+        <p>
+            Le language morse est un code simple alliant des points et des tirets permettant
+            de transmettre des messages.
+        </p>
+        <p>
+            Mis au point par Samuel Morse ainsi que Alfred Vail, cette méthode a révolutionné
+            la transmission de messages dans le monde entier.
+        </p>
+    </div>
+
+    <div class="secondExplanationMorse">
+        <p>Même si dans nos sociétés actuelles nous n'utilisons plus ce moyen de communication, il est néanmoins 
+            parfois utile pour certaines personnes dans des situations spécifiques.
+        </p>
+        <p>
+            Comme par exemple, dans les jeux-vidéos, pour les énigmes. Ou bien les alpinistes et plongeurs utilisent 
+            parfois également ce système pour se transmettre des messages.
+        </p>
+        <p>Autre exemple un peu plus glauque, un prisonner de guerre Américain durant le Vietnam a réussi à transmettre un 
+            message morse en clignant des yeux. Son message était "T-O-R-T-U-R-E".
+        </p>
+    </div>
+
+    <div class="titreContainer">
+        <h1>Envie d'essayer le morse ?</h1>
+    </div>
+
+    <img src="../images/desk1.png" alt="bureau" id="desk" class="desk">
+
+    <div class="input">
+        <input type="text" placeholder="Entrez votre message" id="inputTexte">
+        <button id="sendInput">Je suis un bouton</button>
+    </div>
+
+    <div class="output" id="outputContainer">
+        <div id="outputMessageConverti"></div>
+        <button id="readMorse">BEEP</button>
+    </div>
+
+    <script src="../script/convertisseurMorse.js"></script>
+</body>
+</html>
